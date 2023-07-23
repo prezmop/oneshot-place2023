@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         OneShot Logo template
 // @namespace    http://vilolentmonkey.net/
-// @version      0.2
+// @downloadURL  https://github.com/prezmop/oneshot-place2023/raw/trunk/overlay.user.js
+// @updateURL    https://github.com/prezmop/oneshot-place2023/raw/trunk/overlay.user.js
+// @version      0.3
 // @description  protect niko
 // @author       oralekin, LittleEndu, GrayTurtles, hurrikate, prezmop
 // @match        https://garlic-bread.reddit.com/embed*
