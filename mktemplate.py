@@ -29,7 +29,7 @@ def getCoords(filename):
 
 def makeGrid(filename,coords):
 	coords = coords[0] + canvas_min[0], coords[1] + canvas_min[1]
-	orig = Image.open(filename)
+	orig = Image.open(filename).convert("RGBA")
 	new = orig.resize((orig.size[0]*grid_scale, orig.size[1]*grid_scale), resample=Image.NEAREST)
 	draw = ImageDraw.Draw(new)
 	font = ImageFont.truetype("LiberationMono-Bold.ttf", size=14)
@@ -65,7 +65,7 @@ def paste(base, image, pos):
 base = Image.new("RGBA",(canvas_size[0] * 3, canvas_size[1] * 3),(0,0,0,0))
 files = Path(image_dir).glob('*')
 for file in sorted(files):
-	with Image.open(file) as ifile:
+	with Image.open(file).convert("RGBA") as ifile:
 		paste(base, ifile, getCoords(file.name))
 		print("pasting",file)
 
