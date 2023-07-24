@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 from pathlib import Path
 
 #CONFIG#
-canvas_min = (-1000, -1000)
+canvas_min = (-1500, -1000)
 canvas_max = (1000,1000)
 image_dir = "images"
 

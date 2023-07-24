@@ -17,11 +17,7 @@ if (window.top !== window.self) {
                 const i = document.createElement("img");
                 i.src = "https://raw.githubusercontent.com/prezmop/oneshot-place2023/trunk/template.png";
                 i.onload = () => {
-                    if (i.width === i.height) {
-                        i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
-                    } else {
-                        i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
-                    }
+                    i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2500px;height: 2000px;";
                 };
                 return i;
             })())
