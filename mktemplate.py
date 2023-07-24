@@ -6,7 +6,7 @@ from pathlib import Path
 
 #CONFIG#
 canvas_min = (-1500, -1000)
-canvas_max = (1000,1000)
+canvas_max = (1500,1000)
 image_dir = "images"
 
 grid_dir = "grids"

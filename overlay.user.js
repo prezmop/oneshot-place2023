@@ -3,7 +3,7 @@
 // @namespace    http://vilolentmonkey.net/
 // @downloadURL  https://github.com/prezmop/oneshot-place2023/raw/trunk/overlay.user.js
 // @updateURL    https://github.com/prezmop/oneshot-place2023/raw/trunk/overlay.user.js
-// @version      0.3
+// @version      0.5
 // @description  protect niko
 // @author       oralekin, LittleEndu, GrayTurtles, hurrikate, prezmop
 // @match        https://garlic-bread.reddit.com/embed*
@@ -17,7 +17,7 @@ if (window.top !== window.self) {
                 const i = document.createElement("img");
                 i.src = "https://raw.githubusercontent.com/prezmop/oneshot-place2023/trunk/template.png";
                 i.onload = () => {
-                    i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2500px;height: 2000px;";
+                    i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 3000px;height: 2000px;";
                 };
                 return i;
             })())
