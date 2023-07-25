@@ -8,6 +8,14 @@
       ],
       "x": 2949,
       "y": 1742
+    },
+    {
+      "name": "niko",
+      "sources": [
+         "https://raw.githubusercontent.com/prezmop/oneshot-place2023/trunk/images/niko.-662.-609.png"
+      ],
+      "x": 838,
+      "y": 391
     }
   ],
   "whitelist": [
