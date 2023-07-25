@@ -1,0 +1,20 @@
+{
+  "contact": "https://discord.gg/baY5tgDP",
+  "templates": [
+    {
+      "name": "sun_large",
+      "sources": [
+         "https://raw.githubusercontent.com/prezmop/oneshot-place2023/trunk/grids/sun_large.1449.742.png"
+      ],
+      "x": 2242,
+      "y": 2375
+    }
+  ],
+  "whitelist": [
+    {
+      "name": "",
+      "url": ""
+    }
+  ],
+  "blacklist": []
+}
