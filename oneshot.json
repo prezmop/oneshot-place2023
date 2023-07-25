@@ -2,21 +2,13 @@
   "contact": "https://discord.gg/baY5tgDP",
   "templates": [
     {
-      "name": "sun_large",
+      "name": "f spez",
       "sources": [
-         "https://raw.githubusercontent.com/prezmop/oneshot-place2023/trunk/images/sun_large.1449.742.png"
+         "https://place.kayo.zip/outputs/default_target.png"
       ],
-      "x": 2949,
-      "y": 1742
+      "x": 0,
+      "y": 0
     },
-    {
-      "name": "niko",
-      "sources": [
-         "https://raw.githubusercontent.com/prezmop/oneshot-place2023/trunk/images/niko.-662.-609.png"
-      ],
-      "x": 838,
-      "y": 391
-    }
   ],
   "whitelist": [
     {
